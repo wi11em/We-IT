@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+  <html lang="nl-BE"></html>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+
+<title>Welkom bij de We-IT website!</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+
+  <body style="background-color:white;"></body>
+
+<!-- We-IT logo -->
+
+<p><img src="We-IT_logo.jpg" width="142" height="142"> </p>
+
+ <!-- Tab links -->
+ <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Wie')" id="defaultOpen">Wie zij wij?</button>
+    <button class="tablinks" onclick="openTab(event, 'Contact')">Hoe kan je ons contacteren?</button>
+    <button class="tablinks" onclick="openTab(event, 'Social')">Sociale media</button>
+  </div>
+
+  <!-- Tab content -->
+  <div id="Wie" class="tabcontent">
+    <p>We-IT een diverse en open vereniging zonder winstoogmerk voor 16-117-jarigen die op een leuke manier kennis en vaardigheden binnen de IT en wetenschap willen delen en/of leren. <br>Mensen uit alle bevolkingsgroepen inspireren en nieuwe inzichten bezorgen is ons doel!
+    </p>
+
+  </div>
+
+  <div id="Contact" class="tabcontent">
+    <p>
+        <h2>Stuur ons een e-mail:</h2>
+
+        <form action="mailto:we.it.generic@gmail.com" method="post" enctype="text/plain">
+        Je naam:<br>
+        <input type="text" name="name"><br>
+        Je e-mail adres:<br>
+        <input type="text" name="mail"><br>
+        Je bericht:<br>
+        <input type="text" name="comment" size="50"><br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+        </form>
+</p>
+</div>
+
+  <div id="Social" class="tabcontent">
+    <p>    Volg ons op facebook of instagram.<br><br>
+        <a href="https://www.facebook.com/We-IT-106002177960217"><img src="facebook_logo.jpg" width="60" height="60"></a>
+        <a href="https://www.instagram.com/we_it_druivenstreek/"><img src="instagram_logo.jpg" width="60" height="60"></a>
+    </p>
+  </div>
+
+  <script>
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+</script>
+
+
+</body>
+</html>
